@@ -177,6 +177,9 @@ const ruTranslations: Translations = {
   // Mind map elements text
   'mind.centralText': 'Центральная тема',
   'mind.abstractNodeText': 'Резюме',
+  'mind.addSummary': 'Добавить резюме',
+  'mind.summarySelectionHint':
+    'Выберите одну тему или соседние темы одного уровня без резюме на одной стороне.',
 
   'tutorial.title': 'Drawnix',
   'tutorial.description':

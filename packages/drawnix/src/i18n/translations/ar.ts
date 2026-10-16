@@ -176,6 +176,9 @@ const arTranslations: Translations = {
   // Mind map elements text
   'mind.centralText': 'الموضوع المركزي',
   'mind.abstractNodeText': 'ملخص',
+  'mind.addSummary': 'إضافة ملخص',
+  'mind.summarySelectionHint':
+    'حدد موضوعًا واحدًا أو موضوعات شقيقة متتالية دون ملخص على الجانب نفسه.',
 
   'tutorial.title': 'Drawnix',
   'tutorial.description':

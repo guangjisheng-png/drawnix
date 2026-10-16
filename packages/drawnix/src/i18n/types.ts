@@ -162,6 +162,8 @@ export interface Translations {
   // Mind map elements text
   'mind.centralText': string;
   'mind.abstractNodeText': string;
+  'mind.addSummary': string;
+  'mind.summarySelectionHint': string;
 
   'tutorial.title': string;
   'tutorial.description': string;

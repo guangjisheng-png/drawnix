@@ -154,7 +154,9 @@ const zhTranslations: Translations = {
 
   // Mind map elements text
   'mind.centralText': '中心主题',
-  'mind.abstractNodeText': '摘要',
+  'mind.abstractNodeText': '概要',
+  'mind.addSummary': '添加概要',
+  'mind.summarySelectionHint': '请选择同一侧尚未添加概要的单个主题或连续同级主题。',
 
   //markdown example
   'markdown.example': `# 我开始了

@@ -176,6 +176,9 @@ const viTranslations: Translations = {
   // Mind map elements text
   'mind.centralText': 'Chủ đề trung tâm',
   'mind.abstractNodeText': 'Tóm tắt',
+  'mind.addSummary': 'Thêm tóm tắt',
+  'mind.summarySelectionHint':
+    'Chọn một chủ đề hoặc các chủ đề cùng cấp liên tiếp chưa có tóm tắt ở cùng một phía.',
 
   'tutorial.title': 'DPIT Draw MindMap',
   'tutorial.description':

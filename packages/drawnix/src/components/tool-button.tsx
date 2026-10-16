@@ -33,6 +33,7 @@ type ToolButtonBaseProps = {
     event: React.PointerEvent<HTMLElement>;
   }): void;
   onPointerUp?(data: { pointerType: EventPointerType }): void;
+  onKeyDown?: React.KeyboardEventHandler<HTMLButtonElement>;
 };
 
 type ToolButtonProps =
@@ -120,6 +121,7 @@ export const ToolButton = React.forwardRef((props: ToolButtonProps, ref) => {
         aria-label={props['aria-label']}
         type={type}
         onClick={onClick}
+        onKeyDown={props.onKeyDown}
         onPointerDown={(event) => {
           props.onPointerDown?.({
             pointerType: event.pointerType || null,

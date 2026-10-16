@@ -485,6 +485,16 @@ export const LinkIcon = createIcon(
   </svg>
 );
 
+export const SummaryIcon = createIcon(
+  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="2" y="3" width="7" height="6" rx="1" />
+      <rect x="2" y="15" width="7" height="6" rx="1" />
+      <path d="M12 3h1a2 2 0 0 1 2 2v4a3 3 0 0 0 3 3 3 3 0 0 0-3 3v4a2 2 0 0 1-2 2h-1M18 12h4" />
+    </g>
+  </svg>
+);
+
 export const MoreOptionsIcon = createIcon(
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
     <g stroke="none" fill="currentColor">

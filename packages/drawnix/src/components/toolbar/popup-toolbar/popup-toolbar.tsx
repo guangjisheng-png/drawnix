@@ -19,7 +19,8 @@ import { flip, offset, useFloating } from '@floating-ui/react';
 import { Island } from '../../island';
 import classNames from 'classnames';
 import { useI18n } from '../../../i18n';
-import { getStrokeColorByElement as getStrokeColorByMindElement, MindElement } from '@plait/mind';
+import { MindElement } from '@plait/mind';
+import { getMindSummaryStrokeColor as getStrokeColorByMindElement } from '../../../utils/mind-summary-appearance';
 import './popup-toolbar.scss';
 import {
   ArrowLineHandle,
@@ -42,6 +43,7 @@ import { Freehand } from '../../../plugins/freehand/type';
 import { PopupLinkButton } from './link-button';
 import { ArrowMarkButton } from './arrow-mark-button';
 import { MoreOptionsButton } from './more-options-button';
+import { PopupSummaryButton } from './summary-button';
 
 export const PopupToolbar = () => {
   const board = useBoard();
@@ -229,6 +231,7 @@ export const PopupToolbar = () => {
                 <ArrowMarkButton board={board} key={5} end={'target'} endProperty={state.target} />
               </>
             )}
+            <PopupSummaryButton board={board} />
             <MoreOptionsButton board={board} key={6} />
           </Stack.Row>
         </Island>

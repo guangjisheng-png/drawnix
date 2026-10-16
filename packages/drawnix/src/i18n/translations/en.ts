@@ -174,6 +174,9 @@ const enTranslations: Translations = {
   // Mind map elements text
   'mind.centralText': 'Central Topic',
   'mind.abstractNodeText': 'Summary',
+  'mind.addSummary': 'Add summary',
+  'mind.summarySelectionHint':
+    'Select one topic or consecutive sibling topics without a summary on the same side.',
 
   'tutorial.title': 'Drawnix',
   'tutorial.description':

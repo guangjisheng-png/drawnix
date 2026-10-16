@@ -1,0 +1,206 @@
+{
+  "type": "drawnix",
+  "version": 1,
+  "source": "web",
+  "elements": [
+    {
+      "id": "summary-demo-root",
+      "type": "mind",
+      "data": {
+        "topic": {
+          "children": [
+            {
+              "text": "Launch plan"
+            }
+          ],
+          "type": "paragraph"
+        }
+      },
+      "children": [
+        {
+          "id": "summary-demo-research",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "Research"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": [
+            {
+              "id": "summary-demo-interviews",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "Interviews"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": []
+            },
+            {
+              "id": "summary-demo-insights",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "Insights"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "summary-demo-design",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "Design"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": []
+        },
+        {
+          "id": "summary-demo-build",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "Build"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": []
+        },
+        {
+          "id": "summary-demo-release",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "Release"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": []
+        },
+        {
+          "id": "style-summary",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "Overview"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": [
+            {
+              "id": "style-milestones",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "Milestones"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": []
+            },
+            {
+              "id": "style-dependencies",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "Dependencies"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "style-schedule",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Schedule"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "style-team",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Team"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "layout": "right",
+      "points": [
+        [
+          160,
+          300
+        ]
+      ]
+    }
+  ],
+  "viewport": {
+    "zoom": 1
+  },
+  "theme": {
+    "themeColorMode": "colorful"
+  }
+}

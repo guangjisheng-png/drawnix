@@ -1,10 +1,11 @@
 import { PlaitBoard, PlaitElement } from '@plait/core';
 import { isClosedCustomGeometry, isClosedDrawElement, PlaitDrawElement } from '@plait/draw';
-import { getFillByElement, getStrokeColorByElement, MindElement } from '@plait/mind';
+import { getFillByElement, MindElement } from '@plait/mind';
 import {
   getFillByElement as getFillByDrawElement,
   getStrokeColorByElement as getStrokeColorByDrawElement,
 } from '@plait/draw';
+import { getMindSummaryStrokeColor } from './mind-summary-appearance';
 import { getTextMarksByElement } from '@plait/text-plugins';
 
 export const isClosedElement = (board: PlaitBoard, element: PlaitElement) => {
@@ -35,7 +36,7 @@ export const getCurrentStrokeColor = (board: PlaitBoard, element: PlaitElement) 
   let strokeColor: string | null = element.strokeColor;
   if (!strokeColor) {
     if (MindElement.isMindElement(board, element)) {
-      strokeColor = getStrokeColorByElement(board, element);
+      strokeColor = getMindSummaryStrokeColor(board, element);
     }
     if (
       PlaitDrawElement.isDrawElement(element) ||
